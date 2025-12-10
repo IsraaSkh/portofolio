@@ -1,4 +1,4 @@
-// Simple lightbox for achievement gallery
+// Lightbox for achievement gallery
 document.addEventListener('DOMContentLoaded', function () {
   const thumbs = document.querySelectorAll('.thumb');
   const lightbox = document.getElementById('lightbox');
@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const lbClose = document.getElementById('lightbox-close');
 
   thumbs.forEach(btn => {
+    // Only attach to thumbs that have data-full (image buttons)
+    const src = btn.getAttribute('data-full');
+    if (!src) return;
     btn.addEventListener('click', () => {
-      const src = btn.getAttribute('data-full');
       const alt = btn.querySelector('img')?.alt || '';
       lbImg.src = src;
       lbImg.alt = alt;

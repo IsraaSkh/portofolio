@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Israa Skah — Diplomacy & International Law</title>
-  <meta name="description" content="Israa Skah — aspiring diplomat and international law professional. Portfolio: diplomas, professional experience, volunteer work, speaking engagements." />
+  <meta name="description" content="Israa Skah — aspiring diplomat and international law professional. Portfolio: diplomas, professional experience, volunteer work, speaking engagements, articles and achievements." />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -20,6 +20,7 @@
         <a href="#education">Diplomas</a>
         <a href="#experience">Experience</a>
         <a href="#gallery">Achievements</a>
+        <a href="#articles">Articles</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -29,8 +30,8 @@
     <section id="hero" class="hero card grid-two">
       <div class="profile">
         <div class="photo-frame" aria-hidden="false">
-          <!-- Replace profile.jpg with your portrait -->
-          <img src="profile.jpg" alt="Portrait of Israa Skah" id="profile-photo">
+          <!-- Replace profile.jpg with your portrait (recommended square crop) -->
+          <img src="profile.jpg" alt="Portrait of Israa Skah" id="profile-photo" onerror="this.style.visibility='hidden'">
         </div>
         <div class="profile-meta">
           <h2 class="name">Israa Skah</h2>
@@ -124,7 +125,7 @@
       </article>
 
       <article class="job">
-        <h3>Child‑Friendly City Officer — UNICEF (Bonneuil-sur-Marne)</h3>
+        <h3>Child‑Friendly City Officer — UNICEF (Bonneuil‑sur‑Marne)</h3>
         <p class="meta">Dec 2023 – Present</p>
         <ul>
           <li>Engaged municipal partners to design and implement policies for children’s rights; led community awareness initiatives.</li>
@@ -142,22 +143,26 @@
 
     <section id="gallery" class="card">
       <h2>Achievements & Events</h2>
-      <p class="small">Click an image to enlarge. Replace the placeholder files (achievement-1.jpg, achievement-2.jpg, ...) with your photos/certificates.</p>
+      <p class="small">Click an image to enlarge. Replace the placeholder files (achievement-1.jpg, achievement-2.jpg, ...) with your photos/certificates. If you don't have images yet, thumbnails are left empty for you to add later.</p>
 
       <div class="gallery" aria-live="polite">
-        <!-- Add or remove thumbnails as needed -->
+        <!-- Example thumbnails. Replace or remove buttons to match the number of images you have. -->
         <button class="thumb" data-full="achievement-1.jpg" aria-label="Open achievement 1">
-          <img src="achievement-1.jpg" alt="Achievement 1">
+          <img src="achievement-1.jpg" alt="Achievement 1" onerror="this.style.visibility='hidden'">
         </button>
         <button class="thumb" data-full="achievement-2.jpg" aria-label="Open achievement 2">
-          <img src="achievement-2.jpg" alt="Achievement 2">
+          <img src="achievement-2.jpg" alt="Achievement 2" onerror="this.style.visibility='hidden'">
         </button>
         <button class="thumb" data-full="achievement-3.jpg" aria-label="Open achievement 3">
-          <img src="achievement-3.jpg" alt="Achievement 3">
+          <img src="achievement-3.jpg" alt="Achievement 3" onerror="this.style.visibility='hidden'">
         </button>
         <button class="thumb" data-full="achievement-4.jpg" aria-label="Open achievement 4">
-          <img src="achievement-4.jpg" alt="Achievement 4">
+          <img src="achievement-4.jpg" alt="Achievement 4" onerror="this.style.visibility='hidden'">
         </button>
+
+        <!-- Empty placeholders for you to add later -->
+        <div class="thumb empty"><span>+ Add image</span></div>
+        <div class="thumb empty"><span>+ Add image</span></div>
       </div>
 
       <!-- Lightbox -->
@@ -165,6 +170,49 @@
         <button id="lightbox-close" class="lightbox-close" aria-label="Close">&#10005;</button>
         <img id="lightbox-img" src="" alt="">
         <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+    </section>
+
+    <section id="articles" class="card">
+      <h2>Articles & Writings</h2>
+      <p class="small">Add your commentary, op‑eds, or published pieces here. Use each card as a teaser and link to a full article or internal page.</p>
+
+      <div class="articles-grid">
+        <!-- Article card template: copy and edit to add your own -->
+        <!--
+          To add an article:
+          1) Duplicate the <article class="post">...</article> block below.
+          2) Replace data attributes and text: data-image (thumbnail), href (link to full article or external URL), .post-title, .post-meta (date), .post-excerpt.
+          3) Add the thumbnail image file to the folder (e.g., article-1.jpg).
+        -->
+        <article class="post">
+          <a class="post-link" href="#" aria-label="Open article 1">
+            <div class="post-thumb" style="background-image:url('article-1.jpg');"></div>
+            <div class="post-body">
+              <h3 class="post-title">Title of Article or Commentary</h3>
+              <p class="post-meta">Sept 2024 • Opinion</p>
+              <p class="post-excerpt">Short excerpt or summary of the piece — two to three lines to entice the reader. Replace this text with your own.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="post empty-post">
+          <div class="post-thumb empty-thumb"><span>+ Add article</span></div>
+          <div class="post-body">
+            <h3 class="post-title">Coming soon</h3>
+            <p class="post-meta">Date</p>
+            <p class="post-excerpt">Create your article card by editing index.html and replacing this block with your content and link.</p>
+          </div>
+        </article>
+
+        <article class="post empty-post">
+          <div class="post-thumb empty-thumb"><span>+ Add article</span></div>
+          <div class="post-body">
+            <h3 class="post-title">Coming soon</h3>
+            <p class="post-meta">Date</p>
+            <p class="post-excerpt">Create your article card by editing index.html and replacing this block with your content and link.</p>
+          </div>
+        </article>
       </div>
     </section>
 
