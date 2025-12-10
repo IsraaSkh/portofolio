@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Israa Skah — Diplomacy & International Law</title>
-  <meta name="description" content="Israa Skah — aspiring diplomat / international law professional. Portfolio: diplomas, professional experience, volunteer work, speaking engagements." />
+  <meta name="description" content="Israa Skah — aspiring diplomat and international law professional. Portfolio: diplomas, professional experience, volunteer work, speaking engagements." />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,58 +13,84 @@
     <div class="container header-inner">
       <div class="brand">
         <h1>Israa Skah</h1>
-        <p class="tagline">Aspiring diplomat & international law professional • Advocacy, youth engagement, and geopolitics</p>
+        <p class="tagline">Diplomacy • International Law • Youth Engagement</p>
       </div>
-      <nav class="top-nav">
+      <nav class="top-nav" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#education">Diplomas</a>
         <a href="#experience">Experience</a>
-        <a href="#volunteer">Volunteer & Speaking</a>
+        <a href="#gallery">Achievements</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section id="about" class="card">
-      <h2>Presentation</h2>
-      <p>
-        Motivated and passionate candidate seeking opportunities in the US and internationally. Strong academic background
-        in Applied Foreign Languages (English & Arabic), with trainings in geopolitics and international law. Volunteer and
-        professional experience with youth, humanitarian organizations, and legal settings have reinforced a commitment to
-        diplomacy and public policy. Dedicated to community impact and practical learning through internships and international programs.
-      </p>
-      <ul class="quick-info">
-        <li><strong>Location</strong>: Paris, France</li>
-        <li><strong>Phone</strong>: +33 6 63 44 97 48</li>
-        <li><strong>Email</strong>: skahisraa@gmail.com</li>
-        <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/israaskah" target="_blank" rel="noopener">linkedin.com/in/israaskah</a></li>
-      </ul>
+    <section id="hero" class="hero card grid-two">
+      <div class="profile">
+        <div class="photo-frame" aria-hidden="false">
+          <!-- Replace profile.jpg with your portrait -->
+          <img src="profile.jpg" alt="Portrait of Israa Skah" id="profile-photo">
+        </div>
+        <div class="profile-meta">
+          <h2 class="name">Israa Skah</h2>
+          <p class="role">Aspiring Diplomat & International Law Professional</p>
+          <p class="location">Paris, France</p>
+          <ul class="contact-inline">
+            <li><strong>Email</strong>: <a href="mailto:skahisraa@gmail.com">skahisraa@gmail.com</a></li>
+            <li><strong>Phone</strong>: +33 6 63 44 97 48</li>
+            <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/israaskah" target="_blank" rel="noopener">linkedin.com/in/israaskah</a></li>
+          </ul>
+          <p class="lead">
+            A mission-driven practitioner with cross-cultural expertise in geopolitics, international law, and youth diplomacy. Experienced in program evaluation, policy drafting, and convening high-level forums to advance inclusive public policy and rights-based approaches.
+          </p>
+        </div>
+      </div>
+
+      <div class="highlights">
+        <h3>Key strengths</h3>
+        <ul class="bullets">
+          <li>Policy analysis & advocacy (children’s rights, youth empowerment)</li>
+          <li>Public speaking & high-level convenings (international forums)</li>
+          <li>Case evaluation & social protection for unaccompanied minors</li>
+          <li>Multilingual communication (Arabic, English, French)</li>
+        </ul>
+
+        <div class="download-cta">
+          <a class="btn-primary" href="resume.pdf" download>Download CV (PDF)</a>
+          <a class="btn-ghost" href="#contact">Invite to Speak</a>
+        </div>
+      </div>
     </section>
 
     <section id="education" class="card">
       <h2>Diplomas & Certificates</h2>
-      <ul class="education-list">
-        <li>
-          <strong>Conservatoire National des Arts et Métiers</strong> — Certification in Global Affairs (2025)
-        </li>
-        <li>
-          <strong>Institut National des Langues et Civilisations Orientales (INALCO)</strong> — Intensive Russian training (2025)
-        </li>
-        <li>
-          <strong>Sorbonne University (Paris 5ᵉ)</strong> — Bachelor's degree (LEA) in Applied Foreign Languages (English & Arabic).
-          (Gap year: 2023–2024)
-        </li>
-        <li>
-          <strong>University of Warsaw — 4EU+ Semester</strong> — Remote Geopolitics course (2024)
-        </li>
-        <li>
-          <strong>Institute for Applied Geopolitical Studies (IEGA)</strong> — Training in Geopolitics of the Persian Gulf & Middle East (2024)
-        </li>
-        <li>
-          <strong>Institute for Research and Studies on the Mediterranean and the Middle East</strong> — Training in International & Comparative Law (2023)
-        </li>
-      </ul>
+      <div class="education-grid">
+        <div>
+          <h4>Conservatoire National des Arts et Métiers</h4>
+          <p>Certification in Global Affairs — 2025</p>
+        </div>
+        <div>
+          <h4>INALCO (Institut National des Langues et Civilisations Orientales)</h4>
+          <p>Intensive Russian training — 2025</p>
+        </div>
+        <div>
+          <h4>Sorbonne University — LEA</h4>
+          <p>Bachelor's in Applied Foreign Languages — English & Arabic (gap year 2023–2024)</p>
+        </div>
+        <div>
+          <h4>University of Warsaw — 4EU+</h4>
+          <p>Geopolitics course (remote) — 2024</p>
+        </div>
+        <div>
+          <h4>IEGA</h4>
+          <p>Training: Geopolitics of the Persian Gulf & Middle East — 2024</p>
+        </div>
+        <div>
+          <h4>Institute for Research & Studies on the Mediterranean and the Middle East</h4>
+          <p>Training in International & Comparative Law — 2023</p>
+        </div>
+      </div>
     </section>
 
     <section id="experience" class="card">
@@ -71,11 +98,11 @@
 
       <article class="job">
         <h3>Unaccompanied Minors Evaluator — France Terre d'Asile (AMNA)</h3>
-        <p class="meta">Feb 2024 – Jun 2024 — Paris (Fixed-term)</p>
+        <p class="meta">Feb 2024 – Jun 2024 • Paris (Fixed-term)</p>
         <ul>
-          <li>Conducted 60+ individual interviews to assess vulnerabilities and needs of unaccompanied minors.</li>
-          <li>Prepared comprehensive evaluation reports and facilitated referrals to health services, legal aid, and shelter.</li>
-          <li>Maintained professional databases and indicators (WithMIE portal, Excel).</li>
+          <li>Conducted 60+ structured individual interviews assessing vulnerabilities and protection needs of unaccompanied minors.</li>
+          <li>Authored comprehensive evaluation reports to inform referrals and case management decisions.</li>
+          <li>Maintained case indicators and contributed to data systems (WithMIE, Excel).</li>
         </ul>
       </article>
 
@@ -83,8 +110,8 @@
         <h3>Social Worker — Emergency & Shelter Services for Unaccompanied Minors</h3>
         <p class="meta">Mar 2024 – Jun 2024</p>
         <ul>
-          <li>Assisted coordination of emergency responses ensuring safety and access to essential services.</li>
-          <li>Collaborated with social workers and legal advocates to support vulnerable youth integration.</li>
+          <li>Coordinated emergency responses, ensuring safe reception and access to legal and medical services.</li>
+          <li>Worked with interdisciplinary teams to support integration pathways for youth beneficiaries.</li>
         </ul>
       </article>
 
@@ -92,17 +119,15 @@
         <h3>Scientific Committee Coordinator — International Youth Forum for Peace (Paris)</h3>
         <p class="meta">Mar 2024 – Present</p>
         <ul>
-          <li>Coordinated VIP speakers and moderators; developed summit themes and sub-themes.</li>
-          <li>Co-drafted the official Paris Peace Youth 24 Declaration submitted to the UN.</li>
+          <li>Coordinated VIP speakers and developed thematic frameworks; co-drafted the Paris Peace Youth 24 Declaration submitted to the UN.</li>
         </ul>
       </article>
 
       <article class="job">
-        <h3>Child-Friendly City Officer — UNICEF (Bonneuil-sur-Marne)</h3>
+        <h3>Child‑Friendly City Officer — UNICEF (Bonneuil-sur-Marne)</h3>
         <p class="meta">Dec 2023 – Present</p>
         <ul>
-          <li>Worked with elected officials, municipal staff, and associations to develop youth and childhood policies.</li>
-          <li>Led community awareness-raising activities promoting children's rights under the coordination of Béatrice Lefrancois.</li>
+          <li>Engaged municipal partners to design and implement policies for children’s rights; led community awareness initiatives.</li>
         </ul>
       </article>
 
@@ -110,48 +135,65 @@
         <h3>Executive Director & COO — AEIA (Abidjan, Ivory Coast)</h3>
         <p class="meta">Oct 2024 – Present</p>
         <ul>
-          <li>Organized the International Economic Forum in Abidjan: theme development, strategic partnerships, and operational oversight.</li>
+          <li>Oversaw delivery of an international economic forum: programming, partnerships, and operations.</li>
         </ul>
       </article>
+    </section>
 
-      <article class="job">
-        <h3>Sub-Saharan Africa Team Leader — Humanitas Prima NGO</h3>
-        <p class="meta">Nov 2024 – Present</p>
-        <ul>
-          <li>Managed a seven-person team for humanitarian missions, conferences, and clothing collection campaigns.</li>
-        </ul>
-      </article>
+    <section id="gallery" class="card">
+      <h2>Achievements & Events</h2>
+      <p class="small">Click an image to enlarge. Replace the placeholder files (achievement-1.jpg, achievement-2.jpg, ...) with your photos/certificates.</p>
+
+      <div class="gallery" aria-live="polite">
+        <!-- Add or remove thumbnails as needed -->
+        <button class="thumb" data-full="achievement-1.jpg" aria-label="Open achievement 1">
+          <img src="achievement-1.jpg" alt="Achievement 1">
+        </button>
+        <button class="thumb" data-full="achievement-2.jpg" aria-label="Open achievement 2">
+          <img src="achievement-2.jpg" alt="Achievement 2">
+        </button>
+        <button class="thumb" data-full="achievement-3.jpg" aria-label="Open achievement 3">
+          <img src="achievement-3.jpg" alt="Achievement 3">
+        </button>
+        <button class="thumb" data-full="achievement-4.jpg" aria-label="Open achievement 4">
+          <img src="achievement-4.jpg" alt="Achievement 4">
+        </button>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+        <button id="lightbox-close" class="lightbox-close" aria-label="Close">&#10005;</button>
+        <img id="lightbox-img" src="" alt="">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
     </section>
 
     <section id="volunteer" class="card">
       <h2>Volunteer, Speaking & Activities</h2>
       <ul class="activities">
-        <li><strong>Speaker</strong> — Fourth Eurasian Women Forum (Saint Petersburg), Sept 2024. Advocated for intergenerational mentoring for young women leaders. Youngest speaker at the Forum.</li>
-        <li><strong>Speaker</strong> — National & international conferences on children’s rights, youth empowerment, and gender equality. Audiences ranged from 30 to 2,000.</li>
-        <li><strong>Founder</strong> — Habib Bourguiba Circle: francophone diplomatic think tank to support young Tunisian talent; Young Francophone Ambassador.</li>
-        <li><strong>Volunteer</strong> — Two-month placement at a law firm in Djerba, Tunisia.</li>
-        <li><strong>Model UN</strong> — Active participant including NYU Abu Dhabi conferences; diplomacy & negotiation experience.</li>
-        <li><strong>Member</strong> — Women Foreign Policy Group; Youth of the IHEDN; Young Ambassador of Francophonie; Youth delegate at World Youth Festival (selected among 10,000).</li>
-        <li><strong>Other</strong> — Met astronauts Thomas Pesquet and Anna Kikina; organizer and participant in cultural initiatives.</li>
+        <li><strong>Speaker</strong> — Fourth Eurasian Women Forum, Saint Petersburg (Sept 2024): advocated intergenerational mentoring for young women.</li>
+        <li><strong>Founder</strong> — Habib Bourguiba Circle: francophone diplomatic think tank supporting young Tunisian talent.</li>
+        <li><strong>Volunteer</strong> — Legal clinic placement in Djerba, Tunisia (two months).</li>
+        <li><strong>Model UN</strong> — Active participant (including NYU Abu Dhabi); diplomacy & negotiation practice.</li>
+        <li><strong>Memberships</strong> — Women Foreign Policy Group; Youth of the IHEDN; Young Ambassador of Francophonie.</li>
       </ul>
     </section>
 
     <section id="skills" class="card">
       <h2>Languages & Interests</h2>
-      <p><strong>Languages</strong>: Arabic (C2), English (C1), French (native), German (A2), Russian (A1), Chinese (A1), Korean (A2)</p>
-      <p><strong>Interests</strong>: Diplomacy, geopolitics, Model UN, mentoring programs for young women, space exploration, concerts, rock climbing, pilates, archery.</p>
+      <p><strong>Languages</strong>: Arabic (C2) • English (C1) • French (native) • German (A2) • Korean (A2) • Russian (A1) • Chinese (A1)</p>
+      <p><strong>Interests</strong>: diplomacy, geopolitics, mentoring young women leaders, space exploration, archery, rock climbing, pilates, cultural programming.</p>
     </section>
 
     <section id="contact" class="card">
       <h2>Contact</h2>
-      <p>If you would like to collaborate, interview, or invite me to speak, please get in touch.</p>
+      <p>If you would like to invite me to speak, collaborate on policy research, or discuss internship opportunities, please get in touch.</p>
       <ul class="contact-list">
-        <li><strong>Address</strong>: 16 Rue des Mésanges, Limeil-Brévannes 94450, France</li>
+        <li><strong>Address</strong>: 16 Rue des Mésanges, Limeil‑Brévannes 94450, France</li>
         <li><strong>Phone</strong>: +33 6 63 44 97 48</li>
         <li><strong>Email</strong>: <a href="mailto:skahisraa@gmail.com">skahisraa@gmail.com</a></li>
         <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/israaskah" target="_blank" rel="noopener">linkedin.com/in/israaskah</a></li>
       </ul>
-      <p class="small">Download: <a href="resume.pdf">Resume (PDF)</a> — (Add your PDF as resume.pdf in this folder)</p>
     </section>
   </main>
 
@@ -160,5 +202,7 @@
       <p>© Israa Skah — Portfolio • Updated: 2025</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

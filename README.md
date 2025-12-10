@@ -1,34 +1,35 @@
-# Israa Skah — Portfolio (Starter)
+# Israa Skah — Polished Portfolio (Starter)
 
-This is a simple single-page portfolio built from the information you provided. It includes sections for presentation, diplomas & certificates, professional experience, volunteer work, speaking, languages, interests, and contact information.
+This enhanced starter site includes:
+- A diplomatic, professional tone in the text.
+- A framed portrait area (replace `profile.jpg`).
+- Achievements gallery with lightbox (replace `achievement-1.jpg`, `achievement-2.jpg`, ...).
+- Responsive, accessible layout with improved typography and color palette.
 
-Files included:
-- index.html — main single-page site
-- styles.css — basic responsive styles
-- (Optional) resume.pdf — add your resume PDF to the same folder and keep the filename `resume.pdf` so the Download link works
+Files
+- index.html — main page (updated)
+- styles.css — visual styles and layout
+- script.js — gallery lightbox
+- resume.pdf — (optional) put your CV here for download
+- profile.jpg — (place your portrait file here)
+- achievement-1.jpg, achievement-2.jpg, ... — achievement/event photos or scanned certificates
 
-How to use
-1. Edit content
-   - Open index.html and update any text, dates, or sections.
-   - Replace the placeholder contact details or address if needed.
+How to customize quickly
+1. Portrait: replace `profile.jpg` with your headshot (1600×1600 or similar crop works well).
+2. Achievements: add images named `achievement-1.jpg`, `achievement-2.jpg`, etc. Update or remove <button class="thumb"> elements in `index.html` if you have fewer or more images.
+3. Text edits: open `index.html` and edit the sections (About, Experience, Education) directly.
+4. Deploy:
+   - GitHub Pages: push to a repo and enable Pages (root or /docs).
+   - Vercel/Netlify: connect the repo and deploy automatically.
+   - Local test: run a simple static server or open `index.html` in a browser (for the lightbox to load images consistently use a server).
 
-2. Add images
-   - Add a profile headshot or event photos to the folder and reference them in index.html.
+Accessibility & best practices
+- Images include alt text; maintain descriptive alt text when you replace images.
+- Use descriptive file names for certificates (e.g., "UNICEF_Speaking_Sept2024.jpg") if you want better SEO and organization.
 
-3. Deploy
-   - GitHub Pages: push this folder to a repository and enable Pages (use main branch / root). Your site will be available at https://<your-username>.github.io/<repo>.
-   - Vercel / Netlify: connect the repo and deploy (automatic on push).
-   - For quick local test: open index.html in a browser.
+If you want, I can next:
+- generate a two-page downloadable CV (PDF) formatted from this content;
+- convert this into a small Next.js starter and push to a GitHub repo (tell me owner/repo);
+- create a French language toggle and produce a bilingual version.
 
-Suggestions to improve
-- Add project or case study pages for major talks, events, or campaigns with images and links.
-- Add downloadable certificates or an interactive timeline of achievements.
-- Add analytics (Plausible/GA) and a contact form (Netlify Forms or simple mailto).
-- Translate the page to French and provide language switch if you target francophone audiences.
-
-If you want, I can:
-- Generate a two-page downloadable resume PDF from this content.
-- Convert this to a Next.js or Jekyll template and push a starter repo.
-- Add a photo, color theme, or logo and produce finished deployable files.
-
-Tell me which of those you'd like next and I will prepare it.
+Tell me which of those you want and I will prepare it.
